@@ -40,7 +40,7 @@ html, body {
   position: relative;
   top: 20%;
 }
-.subtitle h3{
+.subtitle h3 {
   font-weight: 400;
   color: #a9abae;
   font-size: 0.78em;
@@ -58,7 +58,7 @@ html, body {
 .form-input h3 {
   letter-spacing: .8px;
 }
-.form-input input{
+.form-input input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -75,19 +75,39 @@ html, body {
   outline-color: #39b54a;
 }
 .start-button {
-
+  margin-top: 10px;
 }
-
+.start-button input {
+    width: 100%;
+    background-color: #39b54a;
+    color: #f1f2f2;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.start-button input:focus {
+  outline-color: #a9abae;
+}
 /*Input Placeholder Text Opacity*/
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   opacity:  0.5;
+  font-size: 15px;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   opacity:  0.5;
+  font-size: 15px;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
   opacity:  0.5;
+  font-size: 15px;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   opacity:  0.5;
+  font-size: 15px;
 }
