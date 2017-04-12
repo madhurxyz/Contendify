@@ -50,6 +50,7 @@
   <body>
     <div id="preloader">
         <div id="status"></div>
+        <img class="delay" src="http://deelay.me/1000/http://examplesite.com/image.gif">
     </div>
     <div class="heading-container">
       <div class="title">
@@ -84,7 +85,6 @@
 
     <!--Smooth Scrolling Script-->
     <script type="text/javascript">
-        //Allows for smooth scrolling
         $(document).ready(function(){
 
             $("a").on('click', function(event) {
@@ -105,6 +105,8 @@
             });
         });
     </script>
+
+    <!--Loading Screen-->
     <script type="text/javascript">
         var preloader = document.getElementById('preloader');
         window.addEventListener('load', function(){
