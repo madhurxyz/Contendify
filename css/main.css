@@ -94,6 +94,8 @@ html, body {
 .start-button input:focus {
   outline-color: #a9abae;
 }
+
+
 /*Input Placeholder Text Opacity*/
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   opacity:  0.5;
@@ -110,4 +112,15 @@ html, body {
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   opacity:  0.5;
   font-size: 15px;
+}
+
+
+/*Overriding Default Highlight Color*/
+::selection {
+  background: #39b54a; /* WebKit/Blink Browsers */
+  color: #f1f2f2;
+}
+::-moz-selection {
+  background: #39b54a; /* Gecko Browsers */
+  color: #f1f2f2;
 }
