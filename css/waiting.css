@@ -10,12 +10,12 @@ html, body {
 }
 .heading-container {
   position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+  top: 35%;
+  left: 20%;
+  transform: translate(-20%, -35%);
+	background-color: yellow;
 }
 .title {
-  /*background-color: yellow;*/
   text-align: center;
   position: relative;
   top: 20%;
@@ -45,4 +45,84 @@ html, body {
   color: #a9abae;
   font-size: 0.78em;
   margin-top: 3px;
+}
+.room-code {
+	font-size: 0.65em;
+  padding-top: 70px;
+  color: #f1f2f2;
+	text-align: center;
+}
+.code-container {
+	background-color: #060808;
+	margin-top: 5px;
+	padding: 10px 30px 10px 30px;
+	font-size: 2em;
+	border-radius: 20px;
+}
+.code {
+	font-weight: 700;
+	color: #39b54a;
+}
+.press-spacebar {
+	font-weight: 400;
+	color: #f1f2f2;
+	text-align: center;
+	padding-top: 70px;
+}
+.press-spacebar p {
+	font-size: 0.8em;
+}
+.spacebar {
+	background-color: #060808;
+	padding: 2px 5px 2px 5px;
+	border-radius: 10px;
+	border: 2px solid #f1f2f2;
+	margin: 3px;
+}
+.spacebar h3 {
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.players-container {
+	position: relative;
+	top: 16.6%;
+	left: 50%;
+}
+.player-one-container {
+	background-color: blue;
+}
+/*.indicator-container {
+	background-color: red;
+	float: left;
+}*/
+.indicator {
+	width: 30px;
+	height: 30px;
+	background: red;
+	border-radius: 30px;
+	float: left;
+	position:
+}
+/*.indicator:before {
+	color: #7b93a5;
+	float: left;
+	position: relative;
+	top: -10;
+	content: ' \25CF';
+  font-size: 60px;
+	z-index: 100;
+}*/
+.player-one {
+	/*background-color: green;*/
+	position: relative;
+}
+
+/*Overriding Default Highlight Color*/
+::selection {
+  background: #39b54a; /* WebKit/Blink Browsers */
+  color: #f1f2f2;
+}
+::-moz-selection {
+  background: #39b54a; /* Gecko Browsers */
+  color: #f1f2f2;
 }
