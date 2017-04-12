@@ -34,7 +34,6 @@ html, body {
   transform: translate(-50%,0%);
 }
 .subtitle {
-  /*background-color: green;*/
   text-align: center;
   position: relative;
   top: 20%;

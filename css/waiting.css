@@ -13,7 +13,6 @@ html, body {
   top: 35%;
   left: 20%;
   transform: translate(-20%, -35%);
-	background-color: yellow;
 }
 .title {
   text-align: center;
@@ -35,7 +34,6 @@ html, body {
   transform: translate(-50%,0%);
 }
 .subtitle {
-  /*background-color: green;*/
   text-align: center;
   position: relative;
   top: 20%;
@@ -83,40 +81,91 @@ html, body {
 	font-weight: 500;
 	letter-spacing: 1px;
 }
-.players-container {
+.players {
 	position: relative;
 	top: 16.6%;
 	left: 50%;
 }
-.player-one-container {
+.player-container {
 	background-color: blue;
 }
-/*.indicator-container {
-	background-color: red;
+.indicator-container {
+	background-color: #333132;
 	float: left;
-}*/
+	height: 67px;
+	width: 67px;
+	z-index: 99;
+}
 .indicator {
-	width: 30px;
-	height: 30px;
-	background: red;
-	border-radius: 30px;
-	float: left;
-	position:
-}
-/*.indicator:before {
-	color: #7b93a5;
-	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	margin: 0 auto;
 	position: relative;
-	top: -10;
-	content: ' \25CF';
-  font-size: 60px;
-	z-index: 100;
-}*/
+	top: 20;
+	border: 3px dashed #f1f2f2;
+}
 .player-one {
-	/*background-color: green;*/
-	position: relative;
+	background-color: #7b93a5;
+	padding-left: 5px;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
 }
-
+.player-others {
+	padding-left: 5px;
+	border-bottom: 5px solid black;
+}
+#i1{
+	background: #7b93a5;
+}
+#i2{
+	background: #819984;
+}
+#i3{
+	background: #7b93a5;
+}
+#i4{
+	background: #7b93a5;
+}
+#i5{
+	background: #7b93a5;
+}
+#i6{
+	background: #7b93a5;
+}
+#i7{
+	background: #7b93a5;
+}
+#i8{
+	background: #7b93a5;
+}
+#iw{
+	background: #7b93a5;
+}
+#two {
+	background-color: #819984;
+}
+#three {
+	background-color: #7b93a5;
+}
+#four {
+	background-color: #7b93a5;
+}
+#five {
+	background-color: #7b93a5;
+}
+#six {
+	background-color: #7b93a5;
+}
+#seven {
+	background-color: #7b93a5;
+}
+#eight {
+	background-color: #7b93a5;
+}
+#waiting {
+	background-color: #7b93a5;
+}
 /*Overriding Default Highlight Color*/
 ::selection {
   background: #39b54a; /* WebKit/Blink Browsers */
