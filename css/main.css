@@ -46,3 +46,48 @@ html, body {
   font-size: 0.78em;
   margin-top: 3px;
 }
+.form-container {
+  /*background-color: yellow;*/
+  font-size: 0.5em;
+  padding-top: 10px;
+  color: #f1f2f2;
+}
+.form-input {
+  margin-top: 10px;
+}
+.form-input h3 {
+  letter-spacing: .8px;
+}
+.form-input input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form-input input:focus {
+  outline-color: #39b54a;
+}
+.start-button {
+
+}
+
+/*Input Placeholder Text Opacity*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  opacity:  0.5;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  opacity:  0.5;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  opacity:  0.5;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  opacity:  0.5;
+}
