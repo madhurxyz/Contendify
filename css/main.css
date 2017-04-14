@@ -71,8 +71,22 @@ html, body {
 .form-input input:focus {
   outline-color: #39b54a;
 }
-.start-button {
+.join-button {
   margin-top: 10px;
+}
+.join-button input {
+    width: 100%;
+    background-color: Transparent;
+    color: #f1f2f2;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid #f1f2f2;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:16px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 .start-button input {
     width: 100%;
@@ -91,7 +105,39 @@ html, body {
 .start-button input:focus {
   outline-color: #a9abae;
 }
-
+.join-button input:focus {
+  outline-color: #39b54a;
+}
+.start-button input:hover {
+	background-color: #f1f2f2;
+	color: #333132;
+	font-weight: 700;
+}
+.join-button input:hover {
+	background-color: #f1f2f2;
+	color: #333132;
+	font-weight: 700;
+}
+.or {
+	text-align: center;
+}
+.or-line {
+	border: none;
+  border-top: 2px solid #f1f2f2;
+  height: 1px;
+  width: 100%;
+	position: relative;
+	bottom: 7;
+}
+.or h3 {
+	background-color: #333132;
+	display: inline;
+	padding-left: 4px;
+	padding-right: 4px;
+	position: relative;
+	top: 2;
+	z-index: 99;
+}
 
 /*Loading Screen*/
 #preloader {
