@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	background-color: #333132;
+	font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+.question-container {
+  background-color: yellow;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.timer {
+  background-color: green;
+}
+.question {
+  background-color: red;
+  text-align: center;
+  color: #f1f2f2;
+}
+.answer {
+  background-color: blue;
+}
+.player-indicator {
+  background-color: black;
+}
