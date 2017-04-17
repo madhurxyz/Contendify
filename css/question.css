@@ -31,7 +31,7 @@ html, body {
 }
 .timer h3 {
 	color: #ffffff;
-	opacity: .89;
+	opacity: .32;
 	font-size: 40px;
 	position: relative;
 	margin-top: -50px;
@@ -45,14 +45,14 @@ html, body {
 .player-indicator {
   background-color: black;
 }
-.answer {
+.lie {
   /*background-color: blue;*/
   margin-top: 30px;
   padding-top: 10px;
   color: #f1f2f2;
   text-align: center;
 }
-.answer input {
+.lie input {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -66,10 +66,10 @@ html, body {
     text-transform: uppercase;
     text-align: center;
 }
-.answer input:focus {
+.lie input:focus {
   outline-color: #39b54a;
 }
-.input-background {
+.lie-background {
   width: 84%;
   background-color: black;
   height: 100px;
