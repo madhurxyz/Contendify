@@ -6,10 +6,8 @@ html, body {
 	width: 100%;
 	background-color: #333132;
 	font-family: 'Montserrat';
-  /*font-size: 1.2em;*/
 }
 .question-container {
-  /*background-color: yellow;*/
   width: 80%;
   position: absolute;
 	top: 5%;
@@ -37,7 +35,6 @@ html, body {
 	margin-top: -50px;
 }
 .question {
-  /*background-color: red;*/
   text-align: center;
   color: #f1f2f2;
   margin-top: 40px;
@@ -46,95 +43,120 @@ html, body {
   background-color: black;
 }
 .answers {
-  /*background-color: blue;*/
   margin-top: 30px;
   padding-top: 10px;
-  color: #434444;
   text-align: center;
 	font-size: 2em;
 	font-weight: 500;
-	width:100%;
+	width: 100%;
+	height: 300px;
 }
-.row-one {
-	margin-bottom: 50px;
+.answers input {
+    background-color: #fff;
+    color: #434444;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 1px;
 }
-.row-two {
-	margin-bottom: 50px;
+.answers input:focus {
+  outline-color: #39b54a;
 }
-.row-three {
-	/*margin-bottom: 20px;*/
+.answers input:hover {
+	background-color: #39b54a;
+	color: #f1f2f2;
+	font-weight: 700;
 }
 .answer-one {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
 }
+
 .answer-two {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
 }
 .answer-three {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
 }
 .answer-four {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
 }
 .answer-five {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	margin-top: 20px;
+	border: none;
 }
 .answer-six {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
 }
 .answer-seven {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
 }
 .answer-eight {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
 }
 .answer-nine {
-	background-color: #ffffff;
-	border-radius: 20px;
-	padding: 15px 70px 15px 70px;
-	margin-left: 5px;
-	margin-right: 5px;
-	display: inline;
+	background-color: #fff;
+	width: 25%;
+	float: left;
+	margin-left: 5%;
+	padding: 12px 1.66%;
+	border-radius: 10px;
+	border: none;
+	margin-top: 20px;
 }
 .player-indicator {
   background-color: #333132;
@@ -144,6 +166,7 @@ html, body {
 	height: 100px;
 	text-align: center;
 	line-height: 300%;
+	margin-top: -70px;
 }
 .indicator {
 	width: 60px;
@@ -178,4 +201,14 @@ html, body {
 }
 #iw{
 	color: #f1f2f2;
+}
+
+/*Overriding Default Highlight Color*/
+::selection {
+  background: #39b54a; /* WebKit/Blink Browsers */
+  color: #f1f2f2;
+}
+::-moz-selection {
+  background: #39b54a; /* Gecko Browsers */
+  color: #f1f2f2;
 }
