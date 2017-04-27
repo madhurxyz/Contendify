@@ -37,7 +37,6 @@ html, body {
 	margin-top: -50px;
 }
 .question {
-  /*background-color: red;*/
   text-align: center;
   color: #f1f2f2;
   margin-top: 40px;
@@ -46,7 +45,6 @@ html, body {
   background-color: black;
 }
 .lie {
-  /*background-color: blue;*/
   margin-top: 30px;
   padding-top: 10px;
   color: #f1f2f2;
