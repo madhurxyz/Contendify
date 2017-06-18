@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	background-color: #333132;
+	font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+.question-container {
+  width: 80%;
+  position: absolute;
+	top: 5%;
+  left: 50%;
+  transform: translate(-50%,0%);
+}
+.question {
+  text-align: center;
+  color: #f1f2f2;
+  margin-top: 40px;
+}
+.choice-container {
+  margin-top: 50px;
+  height: 400px;
+  text-align: center;
+}
+.choice {
+  height: 48%;
+  border-radius: 40px;
+  font-size: 3em;
+}
+.choice h3 {
+  position: relative;
+  top: 20%;
+}
+.p-choice {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: black;
+  border: 3px solid black;
+  margin-top: -20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.points {
+  position: relative;
+  top: 30;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #39bf4a;
+  letter-spacing: 1px;
+  margin-left: 63px;
+  margin-right: 63px;
+  /*padding-right: 20px;*/
+}
+#p1 {
+  background-color: #7b93a5;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+#p2{
+	background: #819984;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+}
+#p3{
+	background: #a3a98a;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+#p4{
+	background: #917d7d;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+#p5{
+	background: #a1947d;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+}
+#p6{
+	background: #84a39d;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+#p7{
+	background: #9581a1;
+  -ms-transform: rotate(-10deg); /* IE 9 */
+  -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+  transform: rotate(-10deg);
+}
+#p8{
+	background: #867b77;
+  -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+  transform: rotate(10deg);
+}
+
+/*Overriding Default Highlight Color*/
+::selection {
+  background: #39b54a; /* WebKit/Blink Browsers */
+  color: #f1f2f2;
+}
+::-moz-selection {
+  background: #39b54a; /* Gecko Browsers */
+  color: #f1f2f2;
+}

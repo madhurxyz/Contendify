@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	width: 100%;
+	background-color: #333132;
+	font-family: 'Montserrat';
+  font-size: 1.2em;
+}
+.round-container {
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translate(-50%, 0%);
+	width: 100%;
+
+}
+.round-title {
+	text-align: center;
+}
+.round-title h1 {
+	font-size: 3em;
+	color: #39bf4a;
+	font-weight: 500;
+}
+.info {
+	padding-top: 10px;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.lie-info {
+	color: #7b93a5;
+}
+.truth-info {
+	margin-top: 5px;
+	color: #a1947d;
+}
+.lie-points {
+	color: #f1f2f2;
+}
+.truth-points {
+	color: #f1f2f2;
+}
